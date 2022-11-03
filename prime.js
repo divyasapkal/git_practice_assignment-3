@@ -1,11 +1,11 @@
 function PrimeNumber(Number){
-    let Factor=0;
+    let counter=0;
     for(i=1;i<=Number;i++){
         if(Number%i==0){
-            Factor++;
+            counter++;
         }
     }
-    if(Factor==2){
+    if(counter==2){
         return false;
     }else{
         return true;
